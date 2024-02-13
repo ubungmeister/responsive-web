@@ -100,6 +100,8 @@ p{
     Form
    ================= */
 
+
+
    input, button{
      font-family:inherit;
      width: 100%;
@@ -111,6 +113,7 @@ p{
     margin-bottom: 0.75em;
     padding: 0.5em;
     border: #d1d5db 2px solid;
+    box-sizing: border-box;
    }
 
    input:focus{
@@ -125,6 +128,7 @@ p{
     font-variant: normal;
     border: none ;
    }
+   
 
    .btn-primary{
     color:white;
